@@ -39,3 +39,18 @@
 
 	
 	Comando: mkdir -p 2021-{01..12}-{01..31}
+
+#### PARTE 2B
+
+	1.- ls -l /bin/ | grep 'i'
+	2.- ls -l /bin/ | grep 'r-x' | wc -l
+	    ls -l /usr/bin | grep 'r-x' | wc -l
+
+#### PARTE 2C
+	1.- Se pueden ver las variables de entorno con el comando "printenv" o con el comando "echo $[VARIABLE DE AMBIENTE]" 
+	2.- Las variables de ambiente se pueden modificar con el operador "=" y con "export", por ejemplo se mostrara como modificar la variable "PATH":
+		a.- $ PATH = $PATH:$HOME/bin
+		    $ export PATH
+ 
+		b.- $ export PATH = $PATH:HOME/bin
+	3.- 
